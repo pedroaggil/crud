@@ -7,7 +7,7 @@
 	if ($result = $mysqli->query($deletar)) { // Se conseguir executar o comando, o registro será excluído
 		?>
 		<script>
-			window.location.href = '../index.php'
+			window.location.href = '../admin.php'
 		</script>
 		<?php
 	} else { // Senão, apresentará um erro

@@ -10,12 +10,10 @@
 	if ($result = $mysqli->query($alterar)) {
 
 		?>
-		<script> window.location.href = '../index.php'; </script>
+		<script> window.location.href = '../admin.php'; </script>
 		<?php
 
 	} else {
-
-		echo "bolinha de gorfe";
 		echo $mysqli->error;
 
 	}
