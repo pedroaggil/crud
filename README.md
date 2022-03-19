@@ -10,6 +10,6 @@ O sistema comporta um banco de dados simples, com apenas uma tabela e três info
 
 O SGBD foi implementado ao sistema a partir da linguagem PHP e é capaz de realizar todas as operações citadas.
 
-Além disso, há um sistema simples de login que consiste no redirecionamento de páginas a partir do nível de usuário que é colocado com a identificação do nome de usuário e senha; o sistema foi desenvolvido com dois níveis de usuário padrão, com um usuário cadastrado em cada um deles.
+Além disso, há um sistema simples de login que consiste no redirecionamento de páginas a partir do nível de usuário que é colocado com a identificação do nome de usuário e senha; o sistema foi desenvolvido com dois níveis de usuário padrão, com um usuário inicial previamente cadastrado em cada um deles. Ademais, é possível inserir novos usuários comuns a partir da tela de cadastro acessível pela tela inicial. Usuários administradores ainda não podem ser cadastrados pelo sistema, exceto diretamente pelo banco de dados, com apenas um destes criado.
 
 O sistema está em desenvolvimento e será incrementado periodicamente.
