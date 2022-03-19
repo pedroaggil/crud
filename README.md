@@ -2,7 +2,7 @@
 
 Este projeto consiste em um sistema de integração entre PHP e Sistema de Gerenciamento de Banco de Dados (SGBD) MySQL.
 
-CRUD é a sigla em inglês para ***Create, Read, Update e Delete*** que é, basicamente, as quatro operações básicas de um SGBD: ler (consultar registros), criar (inserir registros), atualizar (alterar um registro) e deletar (apagar um registro).
+CRUD é a sigla em inglês para ***Create, Read, Update e Delete*** que são, basicamente, as quatro operações básicas de um SGBD: ler (consultar registros), criar (inserir registros), atualizar (alterar um registro) e deletar (apagar um registro).
 
 ##
 
