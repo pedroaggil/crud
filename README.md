@@ -6,7 +6,7 @@ CRUD é a sigla em inglês para ***Create, Read, Update e Delete*** que são, ba
 
 ##
 
-O sistema comporta um banco de dados simples, com apenas uma tabela e três informações: uma Chave Primária (*Primary Key*, PK) natural que pode ser alterada e dois atributos padrão que serão submetidos às operações CRUD.
+O sistema comporta um banco de dados simples, com apenas duas tabelas em sua composição.
 
 O SGBD foi implementado ao sistema a partir da linguagem PHP e é capaz de realizar todas as operações citadas.
 
