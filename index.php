@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"> <!-- Implementação do CSS -->
 </head>
 <body>
-	<h1 style="text-align: center">Login</h1>
+	<h1 style="text-align: center">Entrar</h1>
 
 	<div class="box">
 		<br>
@@ -28,6 +28,9 @@
 	    </form>
 
 	    <br>
+
+	    <a href="cadastro.php">Não tem conta? Cadastre-se aqui</a><br><br>
+
     </div>
 
     <footer>

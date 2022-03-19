@@ -10,7 +10,7 @@ CREATE TABLE tb_aluno (
 CREATE TABLE tb_usuario (
 	cd_usuario INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	ds_login VARCHAR(30),
-	ds_senha CHAR(8),
+	ds_senha VARCHAR(16),
 	nr_nivel INT
 );
 
@@ -25,4 +25,4 @@ INSERT INTO tb_aluno (cd_rm, nm_nome, nr_idade) VALUES
 
 INSERT INTO tb_usuario (cd_usuario, ds_login, ds_senha, nr_nivel) VALUES
 	(null, 'user', '1234', '1'),
-	(null, 'admin', '1234', '2');
+	(null, 'admin', '@ypedro', '2');

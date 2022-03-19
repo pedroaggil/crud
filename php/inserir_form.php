@@ -1,20 +1,15 @@
 <?php include('conectar.php');
 
-$rm = $_POST['rmAluno'];
-$nome = $_POST['nomeAluno'];
-$idade = $_POST['idadeAluno'];
+	$rm = $_POST['rmAluno'];
+	$nome = $_POST['nomeAluno'];
+	$idade = $_POST['idadeAluno'];
 
-$inserir = "INSERT INTO tb_aluno (cd_rm, nm_nome, nr_idade) VALUES ('". $rm ."', '". $nome ."', '". $idade ."')";
+	$inserir = "INSERT INTO tb_aluno (cd_rm, nm_nome, nr_idade) VALUES ('". $rm ."', '". $nome ."', '". $idade ."')";
 
-if ($lista = $mysqli->query($inserir)){
-	?>
+	if ($lista = $mysqli->query($inserir)) {
+		?> <script>	window.location.href = "../admin.php"; </script> <?php 
 
-	<script>
-		window.location.href = "../admin.php";
-	</script>
-
-<?php 
-
-echo $mysqli->error;
-}
+	} else {
+		echo $mysqli->error;
+	}
 ?>
