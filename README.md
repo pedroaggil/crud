@@ -12,4 +12,4 @@ O SGBD foi implementado ao sistema a partir da linguagem PHP e é capaz de reali
 
 Além disso, há um sistema simples de login que consiste no redirecionamento de páginas a partir do nível de usuário que é colocado com a identificação do nome de usuário e senha; o sistema foi desenvolvido com dois níveis de usuário padrão, com um usuário cadastrado em cada um deles.
 
-O sistema está em desenvolvimento e será implementado periodicamente.
+O sistema está em desenvolvimento e será incrementado periodicamente.
